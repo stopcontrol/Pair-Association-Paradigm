@@ -1,0 +1,88 @@
+/* experiment.css */
+
+body {
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	font-size:22px;
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+
+#jspsych_target {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+	font-size:20px;
+
+	text-align: center;
+}
+
+#jspsych_target pre {
+	text-align: left;
+}
+
+#jspsych_instructions {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:5px;
+}
+
+
+
+#jspsych_text {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:19px;
+
+
+}
+
+button {
+    background-color: #ff6632;/*#4CAF50;*/ /* Green */
+		margin-top:25px;
+    border: none;
+		border-radius: 12px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input {
+	border-color: #ff6632;
+	width: 10%;
+	height: 4%;
+	padding: 3px 10px;
+	margin: 6px 0;
+	border-radius: 11px;
+
+}
+
+input:focus {
+	background: #ffd8cc;
+}
+
+#time {
+	border-color: #d3d3d3;
+	border-width: 3px;
+	width: 2.5%;
+	height: 2%;
+	border-radius: 4px;
+
+}
+#message {
+		border-radius: 12px;
+		border-color: #ff6632;
+		border-width: 4px;
+		outline: 0;
+		outline-color: #ff6632;
+
+
+}
